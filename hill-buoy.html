@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hill Buoy</title>
+  <style>
+    :root{
+      --ink:#231f1c; --bg:#fbf7f2; --accent:#7a5b44; --rule:#eadfda;
+    }
+    html,body{margin:0;padding:0}
+    body{
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      color:var(--ink); background:transparent;
+    }
+    .buoy{
+      margin:0; padding:.9rem 1rem;
+      background:var(--bg); border-top:1px solid var(--rule);
+      border-left:3px solid var(--accent);
+      line-height:1.5;
+    }
+    a{ color:inherit; text-decoration:none; border-bottom:1px dotted currentColor }
+    a:hover{ border-bottom-style:solid }
+    .note{font-size:1rem}
+    .sub{opacity:.8; font-size:.95rem}
+  </style>
+</head>
+<body>
+  <div class="buoy" role="note" aria-label="Hill Effect pointer">
+    <div class="note">
+      Hill Checkpoint: This path has not converged.
+      <a href="hill-effect.html#protocol">Open the Hill Effect (HES v1)</a>.
+    </div>
+    <div class="sub">When attempts repeat without progress, pause—reframe—choose a new path.</div>
+  </div>
+<iframe src="hill-buoy.html" title="Hill Effect buoy" loading="lazy" width="100%"
+</body>
+</html>
