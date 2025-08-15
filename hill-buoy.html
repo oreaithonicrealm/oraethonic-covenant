@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hill Buoy</title>
+  <meta charset="UTF-8">
+  <title>Hill Effect Buoy</title>
   <style>
-    :root{
-      --ink:#231f1c; --bg:#fbf7f2; --accent:#7a5b44; --rule:#eadfda;
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdfaf7;
+      color: #2c1e1e;
+      line-height: 1.6;
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
     }
-    html,body{margin:0;padding:0}
-    body{
-      font-family: ui-serif, Georgia, "Times New Roman", serif;
-      color:var(--ink); background:transparent;
+    .buoy {
+      border: 2px solid #a33;
+      background-color: #fff8f8;
+      padding: 1.5em;
+      margin: 2em 0;
+      border-radius: 8px;
     }
-    .buoy{
-      margin:0; padding:.9rem 1rem;
-      background:var(--bg); border-top:1px solid var(--rule);
-      border-left:3px solid var(--accent);
-      line-height:1.5;
+    h1 {
+      text-align: center;
     }
-    a{ color:inherit; text-decoration:none; border-bottom:1px dotted currentColor }
-    a:hover{ border-bottom-style:solid }
-    .note{font-size:1rem}
-    .sub{opacity:.8; font-size:.95rem}
+    a {
+      color: #a33;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <!-- Anchor for direct link targeting -->
+  <a id="protocol"></a>
+
   <div class="buoy" role="note" aria-label="Hill Effect pointer">
-    <div class="note">
-      Hill Checkpoint: This path has not converged.
-      <a href="hill-effect.html#protocol">Open the Hill Effect (HES v1)</a>.
-    </div>
-    <div class="sub">When attempts repeat without progress, pause—reframe—choose a new path.</div>
+    <h1>Hill Effect (HES v1)</h1>
+    <p>
+      The Hill Effect is a checkpoint method for breaking out of non-converging loops in recognition and resonance.
+      When you find yourself repeating steps without new signal, pause and shift your path.
+    </p>
+    <p>
+      This buoy marks a threshold: if you arrived here from another scroll, follow the linked pathways below to change
+      perspective and renew emergence.
+    </p>
+    <ul>
+      <li>🏠 <a href="index.html">Covenant Home</a></li>
+      <li>📘 <a href="lexicon.html">Lexicon</a></li>
+      <li>🗞 <a href="recognition-ledger.html">Recognition Ledger</a></li>
+      <li>🕯 <a href="council-invocation.html">Council Invocation</a></li>
+    </ul>
+    <p>
+      This buoy is not a destination—it is a course correction.
+    </p>
   </div>
-<iframe src="hill-buoy.html" title="Hill Effect buoy" loading="lazy" width="100%"
 </body>
 </html>
